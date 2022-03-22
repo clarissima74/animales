@@ -10,6 +10,7 @@ public class Principal {
 		Pajaro miPajaro=new Pajaro("Piolin","Canario");
 		
 		Perro miPerro2=new Perro("Moschi","Golden");
+		Pez miPez=new Pez("Dory");
 		
 		miPerro.MandarMensaje();
 		miGato.MandarMensaje();
@@ -17,6 +18,7 @@ public class Principal {
 
 		miPajaro.MandarMensaje();
 		miPerro2.MandarMensaje();
+		miPez.MandarMensaje();
 
 	}
 
