@@ -9,10 +9,15 @@ public class Principal {
 		Tortuga miTortuga=new Tortuga("Steven","Plana");
 		Pajaro miPajaro=new Pajaro("Piolin","Canario");
 		
+		Perro miPerro2=new Perro("Moschi","Golden");
+		
 		miPerro.MandarMensaje();
 		miGato.MandarMensaje();
 		miTortuga.MandarMensaje();
+
 		miPajaro.MandarMensaje();
+		miPerro2.MandarMensaje();
+
 	}
 
 }
