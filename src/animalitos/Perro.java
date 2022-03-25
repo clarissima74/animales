@@ -12,5 +12,9 @@ public class Perro extends Mascota {
 	public void MandarMensaje() {
 		System.out.println("Soy " + this.getNombre() + " y ladro");
 	}
+	@Override
+	public String toString() {
+		return "Perro de raza=" + raza ;
+	}
 
 }
